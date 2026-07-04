@@ -1,6 +1,6 @@
 from django.urls import path
 
-from api.views import FaceEnrollView, FaceAPICheckView, FaceScanView, FaceVerifyView
+from authentication.views import FaceEnrollView, FaceAPICheckView, FaceScanView, FaceVerifyView
 
 urlpatterns = [
     path('face/health/', FaceAPICheckView.as_view(), name='api-check'),
