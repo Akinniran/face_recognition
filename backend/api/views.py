@@ -10,7 +10,7 @@ from face_recognition.face_service.service import FaceRecognitionService, FaceSe
 service = FaceRecognitionService()
 
 
-class FaceHealthView(APIView):
+class FaceAPICheckView(APIView):
 	permission_classes = [AllowAny]
 
 	def get(self, request):

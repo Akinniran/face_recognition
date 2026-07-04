@@ -8,8 +8,6 @@ Steps to run
 
 ## Django service mode
 
-This folder now also powers the Django face-recognition API used by the app.
-
 Available endpoints:
 1. `GET /api/face/health/` - service health check
 2. `POST /api/face/scan/` - detect faces in an uploaded image
