@@ -1,0 +1,10 @@
+latest_venv/
+.env
+.myenv
+../latest_venv/*
+
+__pycache__/
+*.pyc
+# *.json
+.pytest_cache/
+.mypy_cache/
