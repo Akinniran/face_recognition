@@ -3,7 +3,7 @@ from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from api.serializers import FaceEnrollSerializer, FaceScanSerializer, FaceVerifySerializer
+from authentication.serializers import FaceEnrollSerializer, FaceScanSerializer, FaceVerifySerializer
 from face_recognition.face_service.service import FaceRecognitionService, FaceServiceError
 
 
